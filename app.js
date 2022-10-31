@@ -13,11 +13,11 @@ var addButton=document.querySelector(".add-item__button");//first button
 var incompleteTaskHolder=document.querySelector(".todo__list");//ul of #incompleteTasks
 var completedTasksHolder=document.querySelector(".completed__list");//completed-tasks
 
+
 //New task list item
 var createNewTaskElement=function(taskString){
 
     var listItem=document.createElement("li");
-
     //input (checkbox)
     var checkBox=document.createElement("input");//checkbx
     //label
@@ -31,11 +31,15 @@ var createNewTaskElement=function(taskString){
     var deleteButton=document.createElement("button");//delete button
     var deleteButtonImg=document.createElement("img");//delete button image
 
+    listItem.className="todo__item item"
+
     label.innerText=taskString;
     label.className='item__label-name';
 
     //Each elements, needs appending
+    checkBox.type="checkbox";
     checkBox.className="item__checkbox"
+
     editInput.type="text";
     editInput.className="item__input-name";
 
@@ -147,8 +151,8 @@ var ajaxRequest=function(){
 
 //The glue to hold it all together.
 
+
 //Set the click handler to the addTask function.
-addButton.onclick=addTask;
 addButton.addEventListener("click",addTask);
 addButton.addEventListener("click",ajaxRequest);
 
