@@ -44,16 +44,16 @@
 }
 
 .todo-list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .title  {
-  list-style:none;
+  list-style: none;
 }
 
 .todo-name,.todo-edit,.todo-delete,.add-button {
-  outline:none;
+  outline: none;
 }
 
 .todo-edit,.todo-delete,.add-button {
@@ -156,14 +156,14 @@
 
 /* Edit Task */
 .todo-input-name {
-  display:none
+  display: none
 }
 
 .todo-edit-mode .todo-input-name {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .todo-edit-mode .todo-label-name {
-  display:none;
+  display: none;
 }
