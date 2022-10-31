@@ -36,7 +36,7 @@
 .todo-name {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .add-item-wrapper {
@@ -135,7 +135,7 @@
 }
 
 .todo-input-name  {
-  width: 226px
+  width: 226px;
 }
 
 .todo-delete-img {
@@ -150,18 +150,18 @@
 
 /* Completed */
 .todo-tasks .todo-label-name {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .todo-input-name {
-  display: none
+  display: none;
 }
 
 .todo-edit-mode .todo-input-name {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .todo-edit-mode .todo-label-name {
