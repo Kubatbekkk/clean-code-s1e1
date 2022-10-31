@@ -26,7 +26,7 @@ body {
   width: 500px;
   margin: 0 auto 0;
 }
-.task {
+.name {
   width: 56%;
   display: inline-block;
   flex-grow: 1
@@ -88,7 +88,7 @@ label[for="new-task"] {
   display: block;
   margin: 0 0 20px;
 }
-input#new-task {
+input#task-name {
   width: 318px;
 }
 
