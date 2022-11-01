@@ -1,7 +1,6 @@
+
+
 /* Basic Style */
-input:focus {
-  outline: none;
-}
 .body {
   background-color: #f8f8f8;
   color: #333;
@@ -41,6 +40,11 @@ input:focus {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
+}
+
+.item__input-name:focus,
+.add-item__input:focus {
+  outline: none;
 }
 
 .add-item__form {
